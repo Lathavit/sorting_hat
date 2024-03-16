@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&display=swap');
+
+#root {
+  max-width: unset;
+  margin: 0 auto;
+  text-align: start;
+}
+
+.body {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline;
+  padding: 0 10px;
+  margin: 0px;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav-item a:hover {
+  color: #fd1616;
+}
+
+.baan {
+  float: right;
+  padding-left: 5px;  
+  padding-top: 6px;
+  text-align: end;
+}
+
+.baan a {
+  font-family: 'Sriracha', cursive;
+  color: white;
+  font-size: 25px;
+  text-align: end;
+
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Kanit', cursive;
+}
+
+h2 {
+  font-family: 'Kanit', cursive;
+  text-align: center;
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.item {
+  width: 48%; /* ให้แต่ละองค์ประกอบมีขนาดเท่ากับ 48% ของพื้นที่ทั้งหมดเพื่อให้พอดีกับการจัดเรียง */
+  margin-bottom: 10px; /* เพิ่มระยะห่างด้านล่างระหว่างแถว */
+}
+
+.Head {
+  font-family: 'itim', cursive;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+li {
+  font-family: 'itim', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+label {
+  font-family: 'itim', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 1px;
+}
+
+input {
+  font-family: 'itim', cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
