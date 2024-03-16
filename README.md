@@ -1,8 +1,29 @@
-# React + Vite
+# โปรแกรมหมวกคัดสรรจากพรี่พรี่ ODDS
+โปรแกรมนี้เป็น assignment จากพี่พี่ที่ OODS ผมได้ลองใช้ react ในการเขียน program นี้ขึ้นมาเพื่อเป็นการ challenge ตัวเองไปในตัว
+นี่เป็นการใช้ react ครั้งที่สองของผม หลังจากที่พี่พี่จาก ODDS มาสอนใช้ เนื่องจากพี่พี่บอกว่าเป็นภาษาที่ได้รับความนิยมมากในปัจจุบันจึงอยากลองดูด้วยครับ
+หวังว่าจะออกมาได้ดีนะครับ :)
+## ใช้ Visual Studio Code ในการเขียน
+### วิธีติดตั้ง 
+1. โหลดโปรแกรม Visual Studio Code
+2. โหลด Node.js
+3. ติดตั้ง Yarn และ Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## วิธีการใช้งาน
+1. cd sorting_hat
+2. npm install
+3. npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Run ผ่านเว็บ [https://quiz-4king.vercel.app/](https://sorting-hat-4kings.vercel.app/)
+
+## วิธีใส่พารามิเตอร์และดูผลลัพธิ์ 
+1. ใส่จำนวนคนในช่องป้อนจำนวนคน 
+2. ใส่ชื่อช่องป้อนชื่อ
+3. กดปุ่น submit ด้านล่าง
+4. ระบบจะพาไปดูว่าใครอยู่บ้านไหนบ้าง
+
+
+## ภาษาที่ใช้ในการพัฒนาโปรแกรมนี้
+jsx css react
+
+## หวังว่าจะได้อยู่ในขั้นตอนพิจารณานะครับ TT
